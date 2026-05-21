@@ -131,6 +131,7 @@ def get_file_language(filename: str) -> str:
 
 
 def get_groq_api_key() -> str:
+    return st.secrets.get("GROQ_API_KEY", "")
 
     key = ""
     return key
