@@ -8,3 +8,4 @@ pypdf
 sentence-transformers
 torch
 transformers
+pysqlite3-binary
